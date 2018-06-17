@@ -9,6 +9,7 @@ using DockableDialog.Properties;
 
 namespace DockableDialog
 {
+	
   public class Ribbon : IExternalApplication
   {
     public Result OnStartup( UIControlledApplication a )
