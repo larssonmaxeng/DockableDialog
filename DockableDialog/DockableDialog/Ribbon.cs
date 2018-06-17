@@ -71,7 +71,7 @@ namespace DockableDialog
   /// <summary>
   /// Register your dockable dialog
   /// </summary>
-  [Transaction( TransactionMode.Manual )]
+  [Transaction( TransactionMode.Manual)]
   public class RegisterDockableWindow : IExternalCommand
   {
     MainPage m_MyDockableWindow = null;
